@@ -5,9 +5,7 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(135deg,
-    #010102,
-    #0b0c0f);
+    background: black;
     color: #302747;
     line-height: 1.6;
     min-height: 100vh;

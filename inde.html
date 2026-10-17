@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.jss"></script>
+</head>
+<body>
+<header>
+    <h1>My Personal Space</h1>
+    <p>A little space to celebrate you.</p>
+</header>
+
+<main>
+    <section class="form-section">
+        <h2>Tell us about yourself</h2>
+
+        <form id="user-form">
+            <label for="name">Your name</label>
+            <input type="text"
+            id="name"
+            placeholder="Enter your name"
+            required>
+
+            <label for="age">Your age</label>
+            <input type="number"
+            id="age"
+            placeholder="Enter your age"
+            min="1"
+            max="120"
+            required>
+            <button type="submit">Personalize My Page</button>
+        </form>
+    </section>
+
+    <section class="results">
+        <h2 id="greeting">Your greeting will appear here!</h2>
+        <p id="months"></p>
+        <p id="access-message"></p>
+        <button type="button"
+        id="edit-button"
+        hidden>Edit My Details</button>
+    </section>
+
+    <section class="quotes-section">
+        <h2>Daily Motivation 💜</h2>
+        <div id="quotes"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Made with 💜 just for you.</p>
+</footer>
+    
+</body>
+</html>

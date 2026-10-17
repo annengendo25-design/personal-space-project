@@ -31,10 +31,16 @@ if(localStorage.getItem("name")!== null){
     displayUser();
 }
 
-const quote="Believe in yourself. You can do it";
+const quotes=[
+   "Believe in yourself. You can do it! 💜",
+    "Every day is a new opportunity to grow. 🌱",
+    "Small steps lead to big achievements. ✨",
+    "Never give up on your dreams. 🌈",
+    "You are capable of amazing things! 🌸" 
+];
 
-for( let i=1; i <=5; i++){
-    document.getElementById("quotes").innerHTML += `<p class="quote">${quote}</p>`;
+for (let i = 0; i < 5; i++) {
+    document.getElementById("quotes").innerHTML +=
+        `<p class="quote">${quotes[i]}</p>`;
 }
-
   

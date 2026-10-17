@@ -32,7 +32,7 @@ if(localStorage.getItem("name")!== null){
 }
 
 const quotes=[
-   "Believe in yourself. You can do it! 💜",
+   "Believe in yourself. You can do it! 💪🏽",
     "Every day is a new opportunity to grow. 🌱",
     "Small steps lead to big achievements. ✨",
     "Never give up on your dreams. 🌈",

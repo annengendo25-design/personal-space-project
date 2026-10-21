@@ -32,11 +32,11 @@ if(localStorage.getItem("name")!== null){
 }
 
 const quotes=[
-   "Believe in yourself. You can do it! 💪🏽",
-    "Every day is a new opportunity to grow. 🌱",
-    "Small steps lead to big achievements. ✨",
-    "Never give up on your dreams. 🌈",
-    "You are capable of amazing things! 🌸" 
+   "Believe in yourself. You can do it! ",
+    "Every day is a new opportunity to grow.",
+    "Small steps lead to big achievements.",
+    "Never give up on your dreams.",
+    "You are capable of amazing things!" 
 ];
 
 for (let i = 0; i < 5; i++) {
